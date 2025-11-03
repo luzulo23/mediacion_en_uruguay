@@ -29,16 +29,8 @@ h1 {
     display: flex;
     justify-content: center;
     color: var(--color-titulo);
-    font-size: 5vw;
-    letter-spacing: 1px;
-    text-align: justify;
     font-family: "Baskervville", serif;
-}
-
-p {
-
-    letter-spacing: 1px;
-    text-align: justify;
+    font-size: 5vw;
 }
 
 .content{
@@ -52,10 +44,11 @@ p {
 .text1 {
     color: var(--color-texto);
     text-align: start;
+    font-family: "Baskervville", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 3vw;
-    letter-spacing: 1%;
+    letter-spacing: 1px;
     text-align: justify;
 }
 
@@ -85,8 +78,6 @@ p {
     text-align: left;
     border-radius: 10px;
     transition-duration: 0.2s;
-    letter-spacing: 1%;
-    text-align: justify;
 
 }
 
@@ -125,6 +116,7 @@ p {
     color: #84828246;                  /* Texto blanco */
     text-align: center;           /* Centrado */
     padding: 15px 10px;           /* Espacio interno */
+    font-family: Arial, sans-serif;
     font-size: 14px;
     position: relative;           /* Para que no se superponga */
     bottom: 0;
