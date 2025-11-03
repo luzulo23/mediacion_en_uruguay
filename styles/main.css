@@ -31,6 +31,13 @@ h1 {
     color: var(--color-titulo);
     font-family: "Baskervville", serif;
     font-size: 5vw;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+p {
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 .content{
@@ -78,6 +85,8 @@ h1 {
     text-align: left;
     border-radius: 10px;
     transition-duration: 0.2s;
+    letter-spacing: 1px;
+    text-align: justify;
 
 }
 
