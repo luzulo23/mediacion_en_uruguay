@@ -1,5 +1,5 @@
 :root {
-    --background-color: rgba(139, 138, 136, 0.658);
+    --background-color: rgb(40, 42, 49);
     --background-titulo: rgb(61, 63, 73);
     --color-titulo: aliceblue;
     --color-texto: rgb(248, 255, 240);
@@ -75,13 +75,13 @@ h1 {
     font-size: 16px;
     text-align: left;
     border-radius: 10px;
-    transition: 0.1s;
+    transition-duration: 0.2s;
 
 }
 
 .accordion-btn:hover {
-  background: #262829;
-  transform: scale(1.01);
+  background: #383b3d;
+  transform: scale(1.005);
 }
 
 .accordion-content {
@@ -102,12 +102,16 @@ h1 {
 .link {
     text-decoration: none;
     color: rgba(22, 94, 158, 0.641);
-    font-size: 2vw;
+    font-size: 1vw;
 
 }
 
+.link:hover {
+    transform: scale(1.005);
+}
+
 .footer {
-    color: #00000030;                  /* Texto blanco */
+    color: #84828246;                  /* Texto blanco */
     text-align: center;           /* Centrado */
     padding: 15px 10px;           /* Espacio interno */
     font-family: Arial, sans-serif;
@@ -127,5 +131,5 @@ h1 {
 
   .link {
     font-size: 1vw;
-}
+    }
 }
